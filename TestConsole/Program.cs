@@ -6,7 +6,21 @@ namespace TestConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            int a, b;
+            a = 5;
+            b = 3;
+
+
+            var sum = Sum(a, b);
+            
+            Console.WriteLine(sum);
+        }
+
+
+        public static int Sum(int a, int b)
+        {
+            return a + b; 
         }
     }
 }
