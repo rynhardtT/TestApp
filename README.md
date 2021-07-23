@@ -1,2 +1,3 @@
 # TestApp
-Testing features
+Testing features 
+This is more information regarding this application
